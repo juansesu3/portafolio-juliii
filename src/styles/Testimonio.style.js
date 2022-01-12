@@ -1,0 +1,125 @@
+import styled from 'styled-components';
+
+
+export const Gridlayerstest = styled.div`
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(22, 1fr);
+    grid-template-rows: 70px;
+    background-color: #ffdada;
+    text-align: start;
+    padding: 0px 20px;
+    padding-bottom: 100px;
+    height: auto;
+    margin-top:56px ;
+    /* grid-template-rows: 70px; */
+  
+`
+export const Gridbone = styled.div`
+
+    font-weight: 400;
+    font-style: normal;
+    font-size: 32px;
+    line-height: 40px;
+    background-color: #ffdada;
+    color: #ff8906;
+    grid-column: 1/11;
+    grid-row: 1/2;
+    position: relative;
+    top: 40px;  
+    text-align:center;
+    
+   
+    
+`;
+
+export const Gridbtow = styled.div`
+    background-color: #ffdada ;
+    grid-column: 1/11;
+    grid-row: 2/4;
+`;
+
+export const Gridthree = styled.div`
+    background-color: #ffdada ;
+    grid-column: 1/11;
+    grid-row: 4/6;
+    margin-top: 50px;
+`;
+
+export const Gridbfour = styled.div`
+    background-color:#ffdada ;
+    grid-column: 1/11;
+    grid-row: 6/8;
+`;
+
+export const Gridbfive = styled.div`
+    background-color: #ffdada;
+    grid-column: 1/11;
+    grid-row: 8/10;
+`;
+
+export const Gridbsix = styled.div`
+    background-color: #ffdada;
+    grid-column: 1/11;
+    grid-row: 10/12;
+`;
+
+export const Gridbsevent = styled.div`
+    background-color: #ffdada;
+    grid-column: 1/11;
+    grid-row: 12/14;
+`;
+export const Gridbeigth = styled.div`
+    background-color: #ffdada;
+    grid-column: 1/11;
+    grid-row: 14/16;
+`;
+
+
+export const Stylenameh5 =styled.h5`
+
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 32px;
+    color: #F25F4C;
+    position: relative;
+    left: 0px;
+    top: 200px;
+    /* margin-bottom: 0px; */
+
+`;
+export const Stylecommitp = styled.p`
+
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 32px;
+    color: #FFFE;
+    position: relative;
+    top: 105px;
+    left: 5px;
+    padding: 20px;
+    background-color: #ffbabaee ;
+    border-radius: 20px;
+    box-shadow: 2px 5px 5px rgb(0 0 0 / 33%)
+
+
+`;
+
+
+
+export const Imagess = styled.img`
+
+    width: 30%;
+    margin-top: 0px;
+    @media only screen and (min-width:480px){
+        width: 130px;
+    }
+
+
+`;
+
+
+
+
